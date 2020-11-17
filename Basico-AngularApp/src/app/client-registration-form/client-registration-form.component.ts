@@ -8,7 +8,7 @@ import { Subject , BehaviorSubject, combineLatest, Observable} from 'rxjs';
 // import { DatabaseService } from '../../../../services/database.service';
 
 // //Translation part
-import { FuseTranslationLoaderService } from '../../../../../@fuse/services/translation-loader.service';
+import { FuseTranslationLoaderService } from '../../@fuse/services/translation-loader.service';
 // import { locale as english } from './i18n/en';
 // import { locale as creole } from './i18n/cr';
 // import { locale as french } from './i18n/fr';
