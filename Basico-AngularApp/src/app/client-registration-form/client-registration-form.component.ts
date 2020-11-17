@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+// import { Component, OnInit } from '@angular/core';
 import { Component, OnInit, EventEmitter, Output, Input } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 // import { Student } from '../../../../models/student';
@@ -19,14 +19,14 @@ import { FuseTranslationLoaderService } from '../../@fuse/services/translation-l
 // import { StudentsService, StudentView } from '../../students.service';
 // import { Section } from 'app/models/section';
 import { ActivatedRoute, Router } from '@angular/router';
-import { MatDatepickerInputEvent } from '@angular/material/datepicker';
-import { MediaMatcher } from '@angular/cdk/layout';
+// import { MatDatepickerInputEvent } from '@angular/material/datepicker';
+// import { MediaMatcher } from '@angular/cdk/layout';
 import {ChangeDetectorRef, OnDestroy} from '@angular/core';
-import { LogService } from 'app/services/log.service';
+// import { LogService } from 'app/services/log.service';
 // import { GeolocationService } from 'app/services/geolocation.service';
 import {map, startWith} from 'rxjs/operators';
-import { ToastrService } from 'ngx-toastr';
-import { TranslateService } from '@ngx-translate/core';
+// import { ToastrService } from 'ngx-toastr';
+// import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-client-registration-form',
